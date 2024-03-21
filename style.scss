@@ -155,6 +155,23 @@ body{
 }
 
 
+
+.BulletList__Main__Container{
+    height: $Main-Container-height;
+    max-height: $Main-Container-height;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .BulletList__Content__Container{
+        .Bullet_Point_Active{
+            background: blue;
+        }
+    }
+}
+
+
 //ACHEIVEMENT SECTION
 .Acheivement__Main__Container{
     height: $Main-Container-height;

@@ -131,6 +131,18 @@ body {
   height: 88vh;
 }
 
+.BulletList__Main__Container {
+  height: 88vh;
+  max-height: 88vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BulletList__Main__Container .BulletList__Content__Container .Bullet_Point_Active {
+  background: blue;
+}
+
 .Acheivement__Main__Container {
   height: 88vh;
   max-height: 88vh;
