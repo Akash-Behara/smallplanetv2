@@ -113,23 +113,6 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-
-        .SD__Txt__Container{
-            width: 50%;
-        }
-        .SD__Carousel__Container{
-            width: 50%;
-            background: #000;
-
-            .swiper{
-                height: 100%;
-                width: 100%;
-                .swiper-slide{
-                    color: white;
-                }
-            }
-            
-        }
     }
 }
 
@@ -162,6 +145,8 @@ body{
     }
 }
 
+
+//ACHEIVEMENT SECTION
 .Acheivement__Main__Container{
     height: $Main-Container-height;
     max-height: $Main-Container-height;
@@ -170,3 +155,6 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+

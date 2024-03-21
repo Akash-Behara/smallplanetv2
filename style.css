@@ -103,20 +103,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.SD__Main__Container .SD__Content__Container .SD__Txt__Container {
-  width: 50%;
-}
-.SD__Main__Container .SD__Content__Container .SD__Carousel__Container {
-  width: 50%;
-  background: #000;
-}
-.SD__Main__Container .SD__Content__Container .SD__Carousel__Container .swiper {
-  height: 100%;
-  width: 100%;
-}
-.SD__Main__Container .SD__Content__Container .SD__Carousel__Container .swiper .swiper-slide {
-  color: white;
-}
 
 .Methodology__Main__Container {
   height: 88vh;
