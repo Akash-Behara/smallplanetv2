@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.Section__Wrapper {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+}
+
+.Section__Heading__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar__Main__Container {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.Navbar__Main__Container .Navbar__Main__Wrapper {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.Navbar__Main__Container .Nav__Logo {
+  width: 150px;
+  height: 80px;
+}
+.Navbar__Main__Container .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.Hero__Main__Container {
+  height: 88vh;
+  max-height: 88vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Hero__Main__Container .Hero__Main__Wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.AboutUs__Main__Container {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+}
+.AboutUs__Main__Container .AboutUs__Main__Wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.AboutUs__Main__Container .AboutUs__Content__Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 2;
+  height: 100%;
+}
+.AboutUs__Main__Container .AboutUs__Txt__Container {
+  max-width: 600px;
+}
+
+.SD__Main__Container {
+  height: 88vh;
+  max-height: 88vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SD__Main__Container .SD__Main__Wrapper {
+  height: 100%;
+  width: 1005;
+  display: flex;
+  flex-direction: column;
+}
+.SD__Main__Container .SD__Content__Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SD__Main__Container .SD__Content__Container .SD__Txt__Container {
+  width: 50%;
+}
+.SD__Main__Container .SD__Content__Container .SD__Carousel__Container {
+  width: 50%;
+  background: #000;
+}
+.SD__Main__Container .SD__Content__Container .SD__Carousel__Container .swiper {
+  height: 100%;
+  width: 100%;
+}
+.SD__Main__Container .SD__Content__Container .SD__Carousel__Container .swiper .swiper-slide {
+  color: white;
+}
+
+.Methodology__Main__Container {
+  height: 88vh;
+  max-height: 88vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Methodology__Main__Container .Methodology__Main__Wrapper {
+  overflow: hidden;
+}
+.Methodology__Main__Container .Methodology__Main__Wrapper .Methodology__Content__Container {
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+.Methodology__Main__Container .Methodology__Main__Wrapper .Methodology__Content__Container .Process {
+  width: 100vw;
+  height: 88vh;
+}
+
+.Acheivement__Main__Container {
+  height: 88vh;
+  max-height: 88vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
