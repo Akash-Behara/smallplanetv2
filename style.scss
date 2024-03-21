@@ -123,6 +123,39 @@ body{
             }
         }
     }
+    .BulletList__Content__Container{
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                margin: 2px 0px;
+            }
+        }
+        .Bullet__point__Container{
+            display: flex;
+            align-items: start;
+            gap: 5px;
+        }
+        .Bullet__Dot{
+            background: black;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            transform: translateY(10px);
+        }
+        .Bullet__point{
+            width: 95%;
+            padding: 2px 4px;
+            margin: 0;
+        }
+        .Bullet__Dot__Active{
+            background: blue;
+        }
+        .Bullet_Point_Active{
+            background: blue;
+            color: white;
+        }
+    }
 }
 
 //Methodology Section
@@ -165,6 +198,9 @@ body{
     align-items: center;
 
     .BulletList__Content__Container{
+        ul{
+            list-style: none;
+        }
         .Bullet_Point_Active{
             background: blue;
         }
